@@ -39,7 +39,7 @@
                 <field name="production" />
             </field>
             <group expand="0" position="inside">
-                <filter string="Production"
+                <filter name="production_group" string="Production"
                         domain="[]"
                         context="{'group_by': 'production'}" />
             </group>
@@ -70,7 +70,7 @@
                 <field name="production" />
             </field>
             <group expand="0" position="inside">
-                <filter string="Production order"
+                <filter name="production_order" string="Production order"
                         domain="[]"
                         context="{'group_by': 'production'}" />
             </group>
